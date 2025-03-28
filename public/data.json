@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "product_name": "Moon Cat",
+        "price": 350,
+        "type": "tshirt",
+        "image": "https://i.ibb.co.com/yckntG3R/Celestial-Frabrics-Big-Cat.png",
+        "description": "A cosmic fusion of lunar magic and feline charm—designed for dreamers and cat lovers alike.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available"
+    },
+    {
+        "id": 2,
+        "product_name": "Tokyo",
+        "price": 350,
+        "type": "tshirt",
+        "image": "https://i.ibb.co.com/CkJFwWZ/Celestial-Frabrics-Tokyo.png",
+        "description": "The ultimate statement tee from our Streetwear Collection.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available"
+    },
+    {
+        "id": 3,
+        "product_name": "Ew People",
+        "price": 350,
+        "type": "tshirt",
+        "image": "https://i.ibb.co.com/twbvcq9G/Celestial-Fabrics-EW-People.png",
+        "description": "Tee—designed exclusively for ladies who love to stand apart.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Off-White"
+        ],
+        "stock": "Available"
+    },
+    {
+        "id": 4,
+        "product_name": "The Space",
+        "price": 350,
+        "type": "tshirt",
+        "image": "https://i.ibb.co.com/N6R6Rd00/Celestial-Fabrics-Space.png",
+        "description": "the Space Tee from our new collection. Comfort? Out of this world. Style? Absolutely cosmic.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available"
+    }
+]
