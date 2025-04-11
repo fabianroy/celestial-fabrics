@@ -17,7 +17,11 @@ export default function ProductCard({ product }:{product:Product}) {
                 <p className='font-semibold text-neutral-800'>Price: BDT {price}</p>
                 <p className='mt-1 font-normal text-neutral-700'>Size: {size.join(', ')}</p>
                 <p className='mt-1 font-normal text-neutral-700'>Color: {color.join(', ')}</p>
-                <p className='mt-1 font-normal text-neutral-700'>Stock: <span className='text-green-600'>{stock}</span></p>
+                <p className='mt-1 font-normal text-neutral-700'>Stock: 
+                    {stock ==="Available" && <span className='text-green-600 font-semibold'> Available</span>}
+                    {stock ==="Comming Soon" && <span className='text-blue-600 font-semibold'> Comming Soon</span>}
+                    {stock ==="Stock Out" && <span className='text-red-600 font-semibold'> Stock Out</span>}
+                </p>
             </div>
         </div>
     )
