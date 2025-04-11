@@ -16,7 +16,9 @@
         "color": [
             "Black"
         ],
-        "stock": "Available"
+        "stock": "Available",
+        "product_code": "CAT-0002",
+        "gender": "Women"
     },
     {
         "id": 2,
@@ -35,7 +37,10 @@
         "color": [
             "Black"
         ],
-        "stock": "Available"
+        "stock": "Available",
+        "product_code": "SE-0001",
+        "gender": "Unisex"
+        
     },
     {
         "id": 3,
@@ -54,7 +59,9 @@
         "color": [
             "Off White"
         ],
-        "stock": "Available"
+        "stock": "Available",
+        "product_code": "CAT-0001",
+        "gender": "Women"
     },
     {
         "id": 4,
@@ -73,7 +80,10 @@
         "color": [
             "Black"
         ],
-        "stock": "Available"
+        "stock": "Available",
+        "product_code": "SE-0002",
+        "gender": "Men"
+        
     },
     {
         "id": 5,
@@ -92,7 +102,9 @@
         "color": [
             "Black"
         ],
-        "stock": "Coming Soon"
+        "stock": "Coming Soon",
+        "product_code" : "MVL-0001",
+        "gender": "Men"
     },
     {
         "id": 6,
@@ -111,7 +123,9 @@
         "color": [
             "Black"
         ],
-        "stock": "Coming Soon"
+        "stock": "Coming Soon",
+        "product_code" : "MVL-0003",
+        "gender": "Men"
     },
     {
         "id": 7,
@@ -130,7 +144,9 @@
         "color": [
             "Black"
         ],
-        "stock": "Coming Soon"
+        "stock": "Coming Soon",
+        "product_code" : "MVL-0005",
+        "gender": "Men"
     },
     {
         "id": 8,
@@ -149,7 +165,9 @@
         "color": [
             "Black"
         ],
-        "stock": "Coming Soon"
+        "stock": "Coming Soon",
+        "product_code" : "MVL-0004",
+        "gender": "Men"
     },
     {
         "id": 9,
@@ -169,14 +187,16 @@
         "color": [
             "Off White"
         ],
-        "stock": "Coming Soon"
+        "stock": "Coming Soon",
+        "product_code" : "MVL-0002",
+        "gender": "Men"
     },
     {
         "id": 10,
-        "product_name": "The New Arrival",
+        "product_name": "WAKANDA Black Panther",
         "price": 420,
         "type": "printed-tshirt",
-        "collection": "New Collection",
+        "collection": "Marvel Collection",
         "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382742/13_h7wvuv.png",
         "description": "Premium black cotton tee featuring the iconic Panther suit necklace and mashup design.",
         "size": [
@@ -189,6 +209,72 @@
         "color": [
             "Black"
         ],
-        "stock": "Coming Soon"
+        "stock": "Coming Soon",
+        "product_code" : "MVL-0006",
+        "gender": "Men"
+    },
+    {
+        "id": 11,
+        "product_name": "Wanna Be Yours",
+        "price": 420,
+        "type": "printed-tshirt",
+        "collection": "Music Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744409143/Celestial_Fabrics_-_Wanna_Be_Yours_oyu16f.jpg",
+        "description": "Vibe to Arctic Monkeys' 'AM' era in this premium black cotton tee featuring the unmistakable soundwave graphic.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available",
+        "product_code" : "MS-0001",
+        "gender": "Women"
+    },
+    {
+        "id": 12,
+        "product_name": "Solid Tee - Black",
+        "price": 250,
+        "type": "solid-tshirt",
+        "collection": "Solid Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744408982/Celestial_Fabrics_-_Solid_Tee_Black_qoxano.png",
+        "description": "Elevate your wardrobe with this premium black cotton tee, a versatile staple for any outfit.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available",
+        "product_code" : "ST-U001",
+        "gender": "Unisex"
+    },
+    {
+        
+        "id": 13,
+        "product_name": "Solid Tee - Off White",
+        "price": 250,
+        "type": "solid-tshirt",
+        "collection": "Solid Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744408984/Celestial_Fabrics_-_Solid_Tee_Off_White_h6tpwq.png",
+        "description": "Elevate your wardrobe with this premium off-white cotton tee, a versatile staple for any outfit.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Off White"
+        ],
+        "stock": "Available",
+        "product_code": "ST-U001",
+        "gender": "Unisex"
     }
 ]

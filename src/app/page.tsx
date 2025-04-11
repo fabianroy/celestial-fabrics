@@ -13,6 +13,8 @@ export interface Product {
   size: string[];
   color: string[];
   stock: string;
+  gender: string;
+  
 }
 
 export default function Home() {
@@ -70,7 +72,7 @@ export default function Home() {
         <p className="mt-2 md:mt-4 md:text-lg">Elevating Comfort, Redefining Luxury.</p>
 
         <nav>
-          <div className="mt-6 w-full max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 px-4">
+          <div className="mt-4 w-full max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4 px-4">
             {/* Search */}
             <input
               type="text"
@@ -86,9 +88,9 @@ export default function Home() {
               value={typeFilter}
               onChange={(e) => setTypeFilter(e.target.value)}
             >
-              <option value="">All Types</option>
-              <option value="printed-tshirt">Printed T-Shirts</option>
-              <option value="solid-tshirt">Solid T-Shirts</option>
+              <option value="">All Products</option>
+              <option value="printed-tshirt">Printed Tees</option>
+              <option value="solid-tshirt">Solid Tees</option>
               <option value="shirt">Polo T-Shirts</option>
               <option value="hoodie">Hoodies</option>
             </select>
@@ -99,12 +101,13 @@ export default function Home() {
               value={sortOrder}
               onChange={(e) => setSortOrder(e.target.value)}
             >
-              <option value="">Sort by Price</option>
+              <option value="">Sort by Price (Default)</option>
               <option value="asc">Price: Low to High</option>
               <option value="desc">Price: High to Low</option>
             </select>
+            {filteredProducts.length < products.length && <p>{filteredProducts.length} Products Found.</p>}
           </div>
-          {filteredProducts.length < products.length && <p>{filteredProducts.length} Products Found.</p>}
+          
         </nav>
       </header>
 
