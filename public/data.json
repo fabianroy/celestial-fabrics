@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1,
+        "product_name": "Moon Cat",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Cat Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382732/7_qtlaay.png",
+        "description": "A cosmic fusion of lunar magic and feline charm—designed for dreamers and cat lovers alike.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available"
+    },
+    {
+        "id": 2,
+        "product_name": "Tokyo",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Special Edition",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382716/1_wsou0l.png",
+        "description": "The ultimate statement tee from our Streetwear Collection.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available"
+    },
+    {
+        "id": 3,
+        "product_name": "Ew People",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Cat Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382727/6_xbxads.png",
+        "description": "Tee—designed exclusively for ladies who love to stand apart.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Off White"
+        ],
+        "stock": "Available"
+    },
+    {
+        "id": 4,
+        "product_name": "The Space",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Special Edition",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382712/2_pys4lx.png",
+        "description": "the Space Tee from our new collection. Absolutely cosmic.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Available"
+    },
+    {
+        "id": 5,
+        "product_name": "Moon Knight",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Marvel Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382742/8_oeob2q.png",
+        "description": "New Moon Night from our Marvel Collection Tee, specifically designed for the fans of the Moon Knight.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Coming Soon"
+    },
+    {
+        "id": 6,
+        "product_name": "Venom",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Marvel Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382746/10_agi9ah.png",
+        "description": "Unleash your inner symbiote with this premium black cotton tee featuring Venom's iconic menacing grin.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Coming Soon"
+    },
+    {
+        "id": 7,
+        "product_name": "Black Panther",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Marvel Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382746/12_o8cyqx.png",
+        "description": "Showcase the intricate detail of the Black Panther helmet on this premium, soft black cotton t-shirt.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Coming Soon"
+    },
+    {
+        "id": 8,
+        "product_name": "The Punisher",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Marvel Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382740/11_kqpt5o.png",
+        "description": "Deliver your own brand of justice in this premium black cotton tee featuring the iconic Punisher skull logo.",
+        "size": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Coming Soon"
+    },
+    {
+        "id": 9,
+        "product_name": "Red Spider",
+        "price": 350,
+        "type": "printed-tshirt",
+        "collection": "Marvel Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382729/9_xpzp3r.png",
+        "description": "Swing into action with this premium white cotton tee featuring the striking red and blue Spider-Man emblem.",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Off White"
+        ],
+        "stock": "Coming Soon"
+    },
+    {
+        "id": 10,
+        "product_name": "The New Arrival",
+        "price": 420,
+        "type": "printed-tshirt",
+        "collection": "New Collection",
+        "image": "https://res.cloudinary.com/dl1jd3756/image/upload/v1744382742/13_h7wvuv.png",
+        "description": "Premium black cotton tee featuring the iconic Panther suit necklace and mashup design.",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ],
+        "color": [
+            "Black"
+        ],
+        "stock": "Coming Soon"
+    }
+]
