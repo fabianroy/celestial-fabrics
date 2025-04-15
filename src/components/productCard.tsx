@@ -5,6 +5,12 @@ export default function ProductCard({ product }:{product:Product}) {
 
     const { product_name, image, price, description, size, color, stock, gender } = product;
 
+    const handleOrderNow = () => {
+        // redirect to the link on another tab
+        const orderLink = "https://www.facebook.com/messages/t/461944960339875";
+        window.open(orderLink, "_blank");
+    }
+
     return (
         <div className="product-card border border-neutral-200 m-2 p-4 rounded-xl">
             <div className="product-card__image">
@@ -23,6 +29,7 @@ export default function ProductCard({ product }:{product:Product}) {
                     {stock ==="Coming Soon" && <span className='text-blue-600'> Coming Soon</span>}
                     {stock ==="Stock Out" && <span className='text-red-600'> Stock Out</span>}
                 </p>
+                <button onClick={handleOrderNow} className='w-full mt-4 bg-transparent border border-neutral-200 text-gray-700 py-2 px-4 rounded hover:bg-neutral-500 transition duration-300 ease-in-out hover:text-neutral-200 hover:cursor-pointer'>Order Now</button>
             </div>
         </div>
     )

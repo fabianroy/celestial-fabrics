@@ -25,7 +25,7 @@ export default function Home() {
   const [sortOrder, setSortOrder] = useState("");
 
   useEffect(() => {
-    fetch("data.json")
+    fetch("https://celestial-server.vercel.app/products")
       .then((res) => res.json())
       .then((data: Product[]) => {
         setProducts(data);
@@ -124,6 +124,15 @@ export default function Home() {
           )}
         </section>
       </main>
+
+      <footer className="w-full text-center my-10 border-t border-neutral-200 pt-8">
+        <p className="text-md text-gray-500">© 2025 Celestial Fabrics. All rights reserved.</p>
+        <p className="text-sm text-gray-500 mt-2">Developed by Celestial Development Unit</p>
+      <div className="w-full text-center my-6">
+        <p className="text-sm text-gray-500">Follow us on <a href="https://www.facebook.com/celestialfabrics" target="_blank" className="text-blue-800" rel="noopener noreferrer">Facebook</a> and <a href="https://www.instagram.com/celestial.fabrics" className="text-blue-800" target="_blank" rel="noopener noreferrer">Instagram</a>.</p>
+        <p className="text-sm text-gray-500 mt-2">For any queries, contact us at celestialfabrics.bd@gmail.com.</p>
+      </div>
+      </footer>
     </>
   );
 }
